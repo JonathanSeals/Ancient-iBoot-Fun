@@ -1,0 +1,7 @@
+#define BASE_ADDR 0x5ff00000
+#define TEXT_SIZE 0x24000
+#define PAYLOAD_ADDR 0x5ff305fd
+#define PRINTF (0x2342c+0x1)
+#define CLEAR_INSN_CACHE (0x16b20)
+#define BDEV_READ (0xdd20+0x1)
+#define PAYLOAD_BASEADDR (IBOOT_BASEADDR+0x2b8c0+0x1)
